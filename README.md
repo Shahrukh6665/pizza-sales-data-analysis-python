@@ -4,14 +4,13 @@ Python-based sales analysis of pizza store transactions — KPIs, trends, and vi
 # Pizza Sales Analysis (Python)
 
 **Overview**  
-This repository contains a Python-based analysis of a pizza store's transactional sales dataset. The analysis computes core KPIs (total revenue, total pizzas sold, total orders, AOV), inspects trends (hourly, daily, monthly), and identifies top/bottom performers and category/size distributions — all using Python data analysis libraries. The project scope and business objectives are defined in the Business Requirements Document (BRD).
+This repository contains a Python-based analysis of a pizza store's transactional sales dataset. The analysis computes core KPIs (total revenue, total pizzas sold, total orders, AOV), inspects trends (hourly, daily, monthly), and identifies top/bottom performers and category/size distributions — all using Python data analysis libraries. 
 
 ---
 
 ## 📁 Repository Contents
 - `notebooks/Pizza Sales Data Analysis.ipynb` — Jupyter Notebook with the full Python analysis and visualizations.
 - `data/pizza_sales.csv` — (sample / anonymized) transactional dataset used for analysis.
-- `docs/Business Requirements Document.docx` — Project BRD describing KPIs, visuals and deliverables. 
 - `README.md` — This file.
 
 ---
