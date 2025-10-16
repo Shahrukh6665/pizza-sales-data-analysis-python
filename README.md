@@ -4,15 +4,14 @@ Python-based sales analysis of pizza store transactions — KPIs, trends, and vi
 # Pizza Sales Analysis (Python)
 
 **Overview**  
-This repository contains a Python-based analysis of a pizza store's transactional sales dataset. The analysis computes core KPIs (total revenue, total pizzas sold, total orders, AOV), inspects trends (hourly, daily, monthly), and identifies top/bottom performers and category/size distributions — all using Python data analysis libraries. The project scope and business objectives are defined in the Business Requirements Document (BRD). :contentReference[oaicite:1]{index=1}
+This repository contains a Python-based analysis of a pizza store's transactional sales dataset. The analysis computes core KPIs (total revenue, total pizzas sold, total orders, AOV), inspects trends (hourly, daily, monthly), and identifies top/bottom performers and category/size distributions — all using Python data analysis libraries. The project scope and business objectives are defined in the Business Requirements Document (BRD).
 
 ---
 
 ## 📁 Repository Contents
 - `notebooks/Pizza Sales Data Analysis.ipynb` — Jupyter Notebook with the full Python analysis and visualizations.
 - `data/pizza_sales.csv` — (sample / anonymized) transactional dataset used for analysis.
-- `docs/Business Requirements Document.docx` — Project BRD describing KPIs, visuals and deliverables. :contentReference[oaicite:2]{index=2}
-- `requirements.txt` — Python package dependencies.
+- `docs/Business Requirements Document.docx` — Project BRD describing KPIs, visuals and deliverables. 
 - `README.md` — This file.
 
 ---
@@ -27,18 +26,17 @@ This repository contains a Python-based analysis of a pizza store's transactiona
 
 ---
 
-## 🧭 How to run (quick)
-1. Clone the repo:
-```bash
-git clone https://github.com/[YOUR_GITHUB_USERNAME]/pizza-sales-analysis-python.git
-cd pizza-sales-analysis-python
+## ✅ Key deliverables
 
+- KPIs: Total Revenue, Total Pizzas Sold, Total Orders, Average Order Value (AOV), Average Pizza per Order.
+- Time-series analyses: Hourly, Daily and Monthly trends.
+- Category & Size breakdowns, Top 5 / Bottom 5 pizzas.
+- Visualizations suitable for dashboarding and management reporting.
 
-## Key deliverables
-KPIs: Total Revenue, Total Pizzas Sold, Total Orders, Average Order Value (AOV), Average Pizza per Order.
+## 📊 Example insights (summary)
 
-Time-series analyses: Hourly, Daily and Monthly trends.
+- Top-selling categories and sizes (by revenue and quantity).
+- Peak sales hours and busiest weekdays.
+- Top 5 pizzas by revenue and quantity; bottom 5 pizzas for potential menu optimization.
 
-Category & Size breakdowns, Top 5 / Bottom 5 pizzas.
-
-Visualizations suitable for dashboarding and management reporting.
+(See notebook for full charts and code that generates them.)
